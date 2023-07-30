@@ -1,0 +1,25 @@
+# Variables #
+var name: string = "John Cena";
+var age: int = 69;
+
+# redefinition of variables #
+age = 55;
+
+# calling functions #
+writeln(name);
+
+# insert variables into string #
+writeln("Hello, my name is ${name} and i am ${age} years old.");
+
+# mathematical operations #
+writeln(34 + 10 * age + (10 + 2));
+
+# booleans #
+writeln(true);
+
+# comparsions #
+writeln(boolstr(true != false));
+writeln(boolstr(name == "Dwayne Johnson"));
+
+var z: bool = false;
+writeln(boolstr(z));

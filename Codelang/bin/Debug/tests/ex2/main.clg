@@ -1,0 +1,5 @@
+var ask: string = func (default: none) {
+    writeln("Hello");
+};
+
+ask();

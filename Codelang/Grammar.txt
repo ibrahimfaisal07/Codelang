@@ -1,0 +1,42 @@
+﻿~ VariableCreation:
+var i: int = 5;
+
+~ VariableAssignment:
+i = 2;
+
+~ CallFunction:
+myFunction();
+
+~ CreateFunction:
+func ( ~Parameters~ ) { ~Statements~ }
+
+~ Parameters:
+x: int, name: string
+
+~ If statements:
+if ( ~ Expression ~ ) { ~ Statements ~ }
+
+~ While loop:
+while ( ~ Expression ~ ) { ~ Statements }
+
+~ For loop:
+for ( ~ Expression ~ ) { ~ Statements }
+
+~ Class:
+class {
+	public var Name: string = "";
+	public var Age: int = 0;
+
+	private var Address: string = "";
+
+	public var SetAddress: void = func (address: string) {
+		Address = address;
+	}
+
+	# You can also use: public setter SetAddress = Address; #
+
+	Init = func (name:string, age: int) {
+		Name = name;
+		Age = age;
+	}
+}
